@@ -1,0 +1,15 @@
+#include stdio.h
+int main()
+{
+ // maximum length of string is 100 here
+ char str[100];//= "int a = b + 1c; ";
+ gets(str);
+ printf("\nYou Have Entered: \n\n");
+ puts(str);
+
+ printf("\nTokens Generated: \n\n");
+ //scanf("%s", str);
+
+ parse(str); // calling the parse function
+ return (0);
+}
